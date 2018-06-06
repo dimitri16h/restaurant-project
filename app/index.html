@@ -2,26 +2,56 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>The Friendly Rooftop</title>
+	<title>The Happy Rooftop</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body class="container bg-dark text-light mt-5">
-	<h1>The Friendly Rooftop</h1>
-	<p>
-		ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
+	<div>
+		<h1>The Happy Rooftop</h1>
+		<p id="info-flavor-text" class="font-italic">Questionable cuisine for individuals who like to eat on rooftops.</p>
+	</div>
+	<div class="mt-5" style="font-size:1.3rem">
+		The Happy Rooftop is a fun and hip new experience in the Downtown Lexington area. If you have never dined while watching the hustle and bustle of the city life from above, you should definitely come and give us a try! 
+	</div>
 
+
+	<!-- Map -->
+	<div id="map">
+		<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=348%20East%20Main%20st%20Lexington%2C%20KY&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.maps-erstellen.de"></a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+	</div>
+
+
+	<div class="mt-3" style="font-size:1.3rem">
+		We are located at 348 East Main St. Lexington, KY. Just above Awesome Inc, enter with the fire escape around back.
+	</div>
+	<div class="text-center mt-3">
+		<p style="font-size:1.3rem" class="m-0 font-weight-bold">
+			Hours:
+		</p>
+		<p class="m-0">
+			Wed-Sun 5-10pm
+		</p>
+		<p>
+			Sunday Brunch 11am-8pm
+		</p>
+	</div>
+
+	<div id="menu" class="bg-secondary mt-5">
+		<h3 class="text-center text-center">Menu</h3>
+		<ul id="menuItems">
+			<!--
+
+			 Menu Items will go here when JS is added
+
+			 -->
+		</ul>
+	</div>
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-	<script src="main.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
