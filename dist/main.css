@@ -1,6 +1,4 @@
-#map {
-  margin: 0 auto; }
-
+@import url("https://fonts.googleapis.com/css?family=Courgette");
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6284,3 +6282,19 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+body {
+  background-color: #0E2E33; }
+
+#menu {
+  background-color: #ADB993;
+  list-style-position: inside; }
+
+#menu li {
+  font-size: 150%;
+  font-family: 'Courgette', cursive; }
+
+#menu li > p {
+  font-size: 60%;
+  font-style: italic;
+  font-family: sarif; }

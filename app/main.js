@@ -20,9 +20,20 @@ function showMenu(menu) {
 	//adds all menu items from localStorage(menu).
 	menu.forEach(function(element){
 		var fullMenuDescription = (element.description);
+
+		var withPosition = element.description.search("with");
+		var entree = fullMenuDescription.slice(0, withPosition);
+		var sides = fullMenuDescription.slice(withPosition, fullMenuDescription.length);
+		// console.log(entree);
+		// console.log(sides);
+
 		var node = document.createElement('li');
-		var textNode = document.createTextNode(fullMenuDescription);
+		var sidesNode = document.createElement('p');
+		var textNode = document.createTextNode(entree);
+		var sidesTextNode = document.createTextNode(sides);
 		node.appendChild(textNode);
+		sidesNode.appendChild(sidesTextNode);
+		node.appendChild(sidesNode);
 		menuItems.appendChild(node);
 	});
 }

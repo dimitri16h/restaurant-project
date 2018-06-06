@@ -1,0 +1,1 @@
+This project was made in approximately 4-5 hours and submitted as my 2nd project during Awesome Inc's 2018 Summer Cohort. It is a mock up website for a restaurant that pulls it's menu from an API and saves it to localStorage. It uses HTML, CSS, JavaScript, Git, node, Express, Heroku, Bootstrap, Sass and Gulp.

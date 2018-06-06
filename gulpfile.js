@@ -9,7 +9,7 @@ gulp.task('copy', function() {
 gulp.task('sass', function() {
 	return gulp.src('app/*.scss')
 		.pipe(sass())
-		.pipe(gulp.dest('app/'))
+		.pipe(gulp.dest('dist/'))
 });
 
 gulp.task('watch', function() {

@@ -1,8 +1,29 @@
-#map {
-	text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Courgette');
 
-
+$myTeal: #ADB993;
+$myBlue: #0E2E33;
+$myGreen: #06A77D;
 
 // Bootstrap and its default variables
 @import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+	background-color: $myBlue;
+}
+
+#menu {
+	background-color: $myTeal;
+	list-style-position: inside;
+}
+
+#menu li{
+	font-size: 150%;
+	font-family: 'Courgette', cursive;
+}
+
+#menu li>p{
+	font-size: 60%;
+	font-style: italic;
+	font-family: sarif;
+}
+
